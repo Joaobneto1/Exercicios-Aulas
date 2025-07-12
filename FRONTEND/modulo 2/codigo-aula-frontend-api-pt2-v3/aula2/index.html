@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Livros</title>
+    <style>
+      li {
+        padding: 8px;
+      }
+      li button {
+        margin-left: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Filmes</h1>
+    <form onsubmit="cadastrarFilme(event)">
+      <input type="text" name="titulo" />
+      <button class="botao-cadastrar">Cadastrar</button>
+      <button
+        type="button"
+        onclick="alterarFilme()"
+        class="botao-alterar"
+        disabled="disabled"
+      >
+        Alterar
+      </button>
+    </form>
+    <ul id="filmes"></ul>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script/index.js"></script>
+  </body>
+</html>

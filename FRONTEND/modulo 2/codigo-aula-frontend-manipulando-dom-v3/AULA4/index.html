@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscando elementos</title>
+  </head>
+  <body>
+    <h1 class="item item1" id="primeiroItem">item 1</h1>
+    <h2 class="item item2">item 2</h2>
+    <h1 class="item3">item 3</h1>
+    <input type="text" name="minhaInput" />
+    <input type="text" name="minhaInput" />
+
+    <script>
+      //   getElementById
+      // getElementsByClassName
+      // getElementsByTagName
+      // getElementsByName
+      // querySelector
+      // querySelectorAll
+
+      const item1 = document.getElementById("primeiroItem");
+      console.log("item1", item1);
+
+      const colecaoDeItemPorClasse = document.getElementsByClassName("item");
+      console.log("colecaoDeItemPorClasse", colecaoDeItemPorClasse);
+
+      const colecaoDeItemPorTagName = document.getElementsByTagName("h1");
+      console.log("colecaoDeItemPorTagName", colecaoDeItemPorTagName);
+
+      const colecaoDeInputsPorName = document.getElementsByName("minhaInput");
+      const colecaoDeInputsPorNameComQuerySelector = document.querySelectorAll(
+        "[name='minhaInput']"
+      );
+      console.log("colecaoDeInputsPorName", colecaoDeInputsPorName);
+      console.log(
+        "colecaoDeInputsPorNameComQuerySelector",
+        colecaoDeInputsPorNameComQuerySelector
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+- [x] Criar rotas padrão
+- [x] Dinamica [nomeparametro] :id [id]
+- [x] Agrupamento (nomedoagrupamento)

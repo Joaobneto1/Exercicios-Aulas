@@ -1,0 +1,104 @@
+{
+  "skills": [
+    {
+      "id": "9a5995b7-aa5e-4a16-a2be-6fb09dff4606",
+      "name": "nodejs"
+    },
+    {
+      "id": "be1931ea-7102-4b5c-9dfe-4b6deaafeb2a",
+      "name": "react native"
+    },
+    {
+      "id": "3701b446-cbbf-4379-ba94-17fd5aa5c221",
+      "name": "react native"
+    },
+    {
+      "id": "ebad0f33-d0d0-4d4d-a804-e17cad99b908",
+      "name": "react native"
+    },
+    {
+      "id": "91c10c89-9fcb-4ca1-8cba-5191ad5443e1",
+      "name": "react native"
+    },
+    {
+      "id": "51235271-e52b-4bb3-bb88-c1b61533d8ea",
+      "name": "react native"
+    },
+    {
+      "id": "1e06d531-29d0-4982-af93-9e179e39913d",
+      "name": "teste"
+    },
+    {
+      "id": "424fd2d8-b16a-4e3a-aa0d-dac490105711",
+      "name": "teste 2"
+    },
+    {
+      "id": "8525e163-435e-4b1e-bef8-0309623be4e4",
+      "name": "teste 4"
+    },
+    {
+      "id": "9bfc5b2f-166a-4204-a670-336f24da93ce",
+      "name": "teste 5"
+    },
+    {
+      "id": "00d3b4be-9d30-44ea-aadd-6f682475b2af",
+      "name": "teste 6"
+    },
+    {
+      "id": "8ac1fe4f-a31b-496c-9243-eb5d6763c99b",
+      "name": "teste 7"
+    },
+    {
+      "id": "5e0d7881-a72a-41fd-9f54-5d1d8b4e8180",
+      "name": "teste 8"
+    },
+    {
+      "id": "82984742-d053-4b4b-ad14-350aa4805a79",
+      "name": "teste 9"
+    },
+    {
+      "id": "09a6ccad-6548-437e-b57f-3c7e5abee5d3",
+      "name": "teste 10"
+    },
+    {
+      "id": "b9b6ebf0-aad5-4519-9f73-9c4799d9e863",
+      "name": "teste 10"
+    },
+    {
+      "id": "3c5469bd-cd85-4799-b74a-d6a0b762d6cc",
+      "name": "teste 11"
+    },
+    {
+      "id": "0ec59fec-dee2-425a-8a30-e2ec5b8e5dbc",
+      "name": "teste 12"
+    },
+    {
+      "id": "53156e09-12c8-4fc3-9c29-dac8ae8ba769",
+      "name": "teste 13"
+    },
+    {
+      "id": "0afe0851-7b80-446e-8968-996545c5ba3a",
+      "name": "teste 14"
+    },
+    {
+      "id": "efd43948-9c80-4f9c-9da9-42ec3825d678",
+      "name": "teste 15"
+    },
+    {
+      "id": "f4e88588-6868-4830-8957-cf37a4570d82",
+      "name": "teste 16"
+    },
+    {
+      "id": "3a33b756-b3a8-4f18-a1e0-1ca64486902a",
+      "name": "teste 17"
+    },
+    {
+      "id": "3f0d2447-53bf-4815-af2f-e9b4945d972b",
+      "name": "teste 18"
+    },
+    {
+      "id": "03ed0cb7-abd2-4ac7-97c6-281667638cc3",
+      "name": "teste 19"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+.linha div {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+}
+
+.azul,
+.azul-2 {
+    background-color: blue;
+}
+
+.vermelha,
+.vermelha-2 {
+    background-color: red;
+}
+
+.verde,
+.verde-2 {
+    background-color: green;
+}

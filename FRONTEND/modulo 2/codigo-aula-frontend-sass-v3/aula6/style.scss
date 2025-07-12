@@ -1,0 +1,15 @@
+@use "sass:math";
+
+/*  + - * math.div % */
+
+.container {
+  width: math.div(1280px, 992px) + "px";
+  padding: 16px * 2;
+  margin: 30px + 25px;
+  max-width: calc(100% - 300px);
+}
+.container-fluid {
+  padding: 16px;
+  width: 1280px - (16px * 2);
+  margin: 30px % 7px;
+}

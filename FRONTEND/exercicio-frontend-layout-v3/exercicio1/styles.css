@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: purple;
+    height: 80px;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.share {
+    height: 300px;
+    width: 80px;
+    background-color: lightcoral;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    position: fixed;
+    left: -55px;
+    top: 50%;
+    margin-top: -150px;
+
+    z-index: 1;
+}
+
+.share:hover {
+    left: 0px;
+}
+
+.share img {
+    width: 50px;
+    margin-top: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.share img:hover {
+    opacity: 0.8;
+}
+
+.image-post {
+    height: 600px;
+    background-image: url('assets/girafa.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+}
+
+.image-post h1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    text-align: center;
+    color: white;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 50px;
+}
+
+.container {
+    padding: 30px 100px;
+}
+
+.container p {
+    text-align: justify;
+    margin-bottom: 10px;
+}

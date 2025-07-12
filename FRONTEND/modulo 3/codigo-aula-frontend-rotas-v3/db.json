@@ -1,0 +1,29 @@
+{
+  "transactions": [
+    {
+      "id": "e5664c11-45e8-497c-b058-f95b24e44800",
+      "description": "Internet",
+      "price": 10000
+    },
+    {
+      "id": "7b476c23-c710-4133-9f24-4fea431fa2f4",
+      "description": "Internet",
+      "price": 100
+    },
+    {
+      "id": "75e859f3-662d-4635-b571-6b0af7fc22c9",
+      "description": "Internet",
+      "price": 100
+    },
+    {
+      "id": "f7849da3-b73a-4697-a20d-f529472cafba",
+      "description": "vet",
+      "price": 300
+    },
+    {
+      "id": "2e4ca138-34b3-4cb7-a8a6-d198d78a6e3d",
+      "description": "energia",
+      "price": 20000
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos DOM</title>
+  </head>
+  <body>
+    <h1></h1>
+    <button class="cliqueAqui">Clique aqui</button>
+    <button onclick="mostrarQueOBotaoFoiClicado2()">Clique aqui 2</button>
+
+    <script>
+      const btnCliqueAqui = document.querySelector(".cliqueAqui");
+
+      function mostrarQueOBotaoFoiClicado() {
+        console.log("modificou");
+        const elementoH1 = document.querySelector("h1");
+        elementoH1.textContent = "botão foi clicado!!";
+      }
+
+      function mostrarQueOBotaoFoiClicado2() {
+        console.log("modificou");
+        const elementoH1 = document.querySelector("h1");
+        elementoH1.textContent = "botão 2 foi clicado!!";
+      }
+
+      btnCliqueAqui.addEventListener("click", mostrarQueOBotaoFoiClicado);
+    </script>
+  </body>
+</html>

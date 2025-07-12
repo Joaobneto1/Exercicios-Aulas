@@ -1,0 +1,11 @@
+.navbar ul {
+  list-style: none;
+}
+.navbar li {
+  padding: 16px;
+}
+.navbar a {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

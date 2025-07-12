@@ -1,0 +1,42 @@
+%notification-shared {
+  border-radius: 8px;
+  max-width: 300px;
+  background-color: #0895e7c7;
+  border: 1px solid #03649c67;
+  color: #03649c67;
+  padding: 16px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+%content-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mensagem-informativa {
+  @extend %notification-shared;
+  @extend %content-flex;
+}
+
+.mensagem-erro {
+  @extend %notification-shared;
+  background-color: #f82929;
+  border-color: red;
+  color: red;
+}
+.mensagem-alerta {
+  @extend %notification-shared;
+  background-color: rgb(253, 232, 114);
+  border-color: rgb(255, 166, 0);
+  color: rgb(255, 166, 0);
+}
+
+.mensagem-sucesso {
+  @extend %notification-shared;
+  background-color: rgb(172, 255, 133);
+  border-color: rgb(7, 134, 19);
+  color: rgb(7, 134, 19);
+}

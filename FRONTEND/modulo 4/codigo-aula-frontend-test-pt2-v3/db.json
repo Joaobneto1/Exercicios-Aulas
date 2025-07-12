@@ -1,0 +1,36 @@
+{
+  "skills": [
+    {
+      "id": "9a5995b7-aa5e-4a16-a2be-6fb09dff4606",
+      "name": "nodejs"
+    },
+    {
+      "id": "be1931ea-7102-4b5c-9dfe-4b6deaafeb2a",
+      "name": "react native"
+    },
+    {
+      "id": "3701b446-cbbf-4379-ba94-17fd5aa5c221",
+      "name": "react native"
+    },
+    {
+      "id": "ebad0f33-d0d0-4d4d-a804-e17cad99b908",
+      "name": "react native"
+    },
+    {
+      "id": "91c10c89-9fcb-4ca1-8cba-5191ad5443e1",
+      "name": "react native"
+    },
+    {
+      "id": "51235271-e52b-4bb3-bb88-c1b61533d8ea",
+      "name": "react native"
+    },
+    {
+      "name": "novo valor editar",
+      "id": "17840f90-4208-4aa8-818f-6a0a12b425d6"
+    },
+    {
+      "id": "044774e8-87d4-4587-8aa3-ee6d02f2dc43",
+      "name": "skill teste cadastro"
+    }
+  ]
+}

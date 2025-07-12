@@ -1,0 +1,11 @@
+.filmes {
+  background-color: #fafafa;
+  max-width: 600px;
+  margin: auto;
+}
+
+.titulo {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 64px 32px;
+}

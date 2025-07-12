@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "name": "React"
+    },
+    {
+      "id": "5850c49a-088a-47ff-8662-38e09aa012be",
+      "name": "estudar nextjs"
+    },
+    {
+      "id": "3540c49a-088a-47ff-8662-38e09aa012be",
+      "name": "estudar sass"
+    }
+  ]
+}

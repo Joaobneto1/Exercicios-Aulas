@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>manipulando classe elemento</title>
+  </head>
+  <body>
+    <h1 class="meuTitulo meuTitulo2 meuTitulo4">Titulo de teste</h1>
+    <script>
+      const elementoh1 = document.querySelector("h1");
+      console.log("className", elementoh1.className);
+      console.log(
+        "contem classe meuTitulo",
+        elementoh1.classList.contains("meuTitulo")
+      );
+      elementoh1.classList.add("meuTitulo3");
+      elementoh1.classList.remove("meuTitulo2");
+      elementoh1.classList.toggle("meuTitulo4");
+    </script>
+  </body>
+</html>

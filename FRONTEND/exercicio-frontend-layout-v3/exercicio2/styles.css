@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c9bff3;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.recipe {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+ul,
+ol {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+body.index-background {
+    background-color: #EAE7F8;
+}
+
+body.chocolate-background {
+    background-color: #F9EBE1;
+}
+
+body.lasanha-background {
+    background-color: #D6EAF8;
+}
+
+body.salada-background {
+    background-color: rgb(88, 182, 88);
+}

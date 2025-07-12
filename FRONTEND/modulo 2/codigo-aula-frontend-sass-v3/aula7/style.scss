@@ -1,0 +1,38 @@
+$cores: [red, blue, green, yellow];
+$larguras: [580, 768, 992, 1280];
+
+@mixin aplicador($tipo: "cores") {
+  @if $tipo == "cores" {
+    @each $cor in $cores {
+      .cor-#{$cor} {
+        background-color: $cor;
+      }
+    }
+  } @else {
+    @each $largura in $larguras {
+      .tamanho-#{$largura} {
+        width: $largura + "px";
+      }
+    }
+  }
+}
+
+@include aplicador("cores");
+@include aplicador("tamanhos");
+
+@function somar($n, $n2) {
+  @return $n + $n2;
+}
+
+.container {
+  width: somar(1280px, 32px);
+}
+
+.button {
+  &:hover {
+    background-color: red;
+  }
+  &::before {
+    content: "qualquer coisa";
+  }
+}

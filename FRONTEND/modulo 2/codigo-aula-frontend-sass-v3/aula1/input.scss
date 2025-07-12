@@ -1,0 +1,11 @@
+$vermelho: red;
+$font: "Roboto", sans-serif;
+$size: 16px;
+$bg: #000;
+
+body {
+  background-color: $bg;
+  color: $vermelho;
+  font-family: $font;
+  font-size: $size;
+}

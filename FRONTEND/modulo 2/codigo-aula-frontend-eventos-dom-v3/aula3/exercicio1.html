@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evento DOM</title>
+  </head>
+  <body>
+    <!-- 
+  keyPress - está pressionada  
+  keyDown - é pressionada
+  keyUp -  retorna à posição original  
+  -->
+    <input type="text" onkeypress="verKeyPress()" onkeydown="verKeyDown()" />
+    <script>
+      const elementoInput = document.querySelector("input");
+
+      function verKeyPress() {
+        console.log("press tecla está pressionada ");
+      }
+      function verKeyDown() {
+        console.log("down tecla é pressionada ");
+      }
+      function verkeyUp() {
+        console.log("up tecla foi solta ou retorna à posição original ");
+      }
+
+      elementoInput.addEventListener("keyup", verkeyUp);
+    </script>
+  </body>
+</html>

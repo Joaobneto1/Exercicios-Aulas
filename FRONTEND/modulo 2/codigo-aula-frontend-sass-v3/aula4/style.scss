@@ -1,0 +1,13 @@
+@mixin flexbox($justify: space-between, $align: center) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+.container {
+  @include flexbox;
+}
+
+.container-center {
+  @include flexbox(center);
+}

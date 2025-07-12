@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api</title>
+  </head>
+  <body>
+    <h1>Tarefas</h1>
+    <form onsubmit="cadastrarTarefa(event)">
+      <input type="text" name="tarefa" placeholder="digite a sua tarefa" />
+      <button>Cadastrar</button>
+    </form>
+    <ul></ul>
+    <script>
+      // Promise => Pending (não foi resolvida) => (foi resolvida) Resolve Reject
+
+      // POST
+
+      function cadastrarTarefa(event) {
+        event.preventDefault();
+        const inputElemento = document.querySelector("[name='tarefa']");
+
+        // completed
+        // id
+        // title
+        // userId
+
+        // POST
+        fetch("https://jsonplaceholder.typicode.com/todos", {
+          method: "POST",
+          body: formatarDadosDeCadastro(inputElemento.value),
+          headers: {
+            "content-type": "application/json",
+          },
+        })
+          .then((resposta) => resposta.json())
+          .then((respostaFormatada) => {
+            console.log(respostaFormatada);
+            gerarTarefa(respostaFormatada);
+          });
+        inputElemento.value = "";
+      }
+
+      function formatarDadosDeCadastro(title) {
+        const dadosCadastro = {
+          completed: false,
+          title: title,
+          userId: 1,
+          id: 201,
+        };
+        return JSON.stringify(dadosCadastro);
+      }
+
+      function gerarTarefa(tarefa) {
+        const ulElemento = document.querySelector("ul");
+
+        const li = document.createElement("li");
+        li.textContent = tarefa.title;
+        ulElemento.appendChild(li);
+      }
+    </script>
+  </body>
+</html>

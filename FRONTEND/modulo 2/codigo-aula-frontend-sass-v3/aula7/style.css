@@ -1,0 +1,44 @@
+.cor-red {
+  background-color: red;
+}
+
+.cor-blue {
+  background-color: blue;
+}
+
+.cor-green {
+  background-color: green;
+}
+
+.cor-yellow {
+  background-color: yellow;
+}
+
+.tamanho-580 {
+  width: "580px";
+}
+
+.tamanho-768 {
+  width: "768px";
+}
+
+.tamanho-992 {
+  width: "992px";
+}
+
+.tamanho-1280 {
+  width: "1280px";
+}
+
+.container {
+  width: 1312px;
+}
+
+.button:hover {
+  background-color: red;
+}
+.button::before {
+  content: "qualquer coisa";
+}
+
+/*# sourceMappingURL=style.css.map */

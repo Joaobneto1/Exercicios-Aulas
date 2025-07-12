@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api</title>
+  </head>
+  <body>
+    <h1>Tarefas Alterar</h1>
+    <form onsubmit="alterarTarefa(event)">
+      <input type="text" name="tarefa" placeholder="digite a sua tarefa" />
+      <button>Alterar</button>
+    </form>
+    <ul></ul>
+    <script>
+      // Promise => Pending (não foi resolvida) => (foi resolvida) Resolve Reject
+
+      // PUT
+
+      function alterarTarefa(event) {
+        event.preventDefault();
+        const inputElemento = document.querySelector("[name='tarefa']");
+
+        // completed
+        // id
+        // title
+        // userId
+
+        // PUT
+        fetch("https://jsonplaceholder.typicode.com/todos/1", {
+          method: "PUT",
+          body: formatarDados(inputElemento.value),
+          headers: {
+            "content-type": "application/json",
+          },
+        })
+          .then((resposta) => {
+            console.log(resposta);
+            return resposta.json();
+          })
+          .then((respostaFormatada) => {
+            console.log(respostaFormatada);
+          });
+        inputElemento.value = "";
+      }
+
+      function formatarDados(title) {
+        const dadosCadastro = {
+          completed: false,
+          title: title,
+          userId: 1,
+          id: 201,
+        };
+        return JSON.stringify(dadosCadastro);
+      }
+
+      function gerarTarefa(tarefa) {
+        const ulElemento = document.querySelector("ul");
+
+        const li = document.createElement("li");
+        li.textContent = tarefa.title;
+        ulElemento.appendChild(li);
+      }
+    </script>
+  </body>
+</html>

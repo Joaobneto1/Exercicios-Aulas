@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.botao {
+  border: 0;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.botao:hover {
+  filter: brightness(1.25);
+}
