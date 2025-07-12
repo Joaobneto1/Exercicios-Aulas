@@ -1,0 +1,36 @@
+body {
+    background-color: red;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media(max-width: 580px) {
+    body {
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+@media print {
+    h1 {
+        background-color: yellow !important;
+        color: red;
+        color-adjust: exact !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    h2 {
+        display: none;
+    }
+}

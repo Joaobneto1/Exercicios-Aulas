@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.lista__item {
+    width: 400px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.lista__item img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    height: 80px;
+
+    padding: 16px 0;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
